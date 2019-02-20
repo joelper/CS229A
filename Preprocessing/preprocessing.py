@@ -36,7 +36,7 @@ def images_to_csv(df, dir, filename):
     return None
 
 
-def csv_to_XY(filename_X, filename_Y):
+def load_XY(filename_X, filename_Y):
     # function that loads a csv containing pixel values, and a csv mapping an image to a label
     # and returns two matrices X and Y
     X_df = pd.read_csv(filename_X)
